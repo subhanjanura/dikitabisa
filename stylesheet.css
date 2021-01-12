@@ -1,0 +1,218 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda bawah */
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(header_img.jpg);
+  background-size: cover;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-family: cynzia;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  font-family: SANS-SERIF;
+  font-size: 20px;
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  font-family: roboto;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(70, 67, 67, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(22, 20, 20, 0.3);
+  transition: all 0.5s;
+  font-family: roboto;
+}
+
+.header-right:hover {
+  background-color: rgba(14, 10, 10, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 700px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-family: 'roboto';
+}
+
+.heading h2 {
+  font-weight: normal;
+  font-family: 'roboto';
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson2 {
+  float: left;
+  width: 25%;
+  margin-top: 50px;
+}
+
+.lesson-icon {
+  position: relative;  
+}
+
+.lesson-icon img {
+  width: 180px;
+  height: 200px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+  font-family: 'roboto';
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #191cad;
+  cursor: pointer;
+  box-shadow: 0 7px #0d0e5a;
+  font-family: 'roboto';
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 124px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.jt-copyright {
+  width: 0 auto;
+  margin-right: 50px;
+  text-align: right;
+}
